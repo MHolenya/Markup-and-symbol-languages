@@ -1,0 +1,27 @@
+*{
+	font-family: "Calibri";
+	margin: 0;
+}
+body {
+	/*border: 1px solid red;
+	padding: 2em;
+	width: 50%;*/
+}
+ 
+label{
+	display: block;
+
+}
+form{
+	margin-top: 2em;
+}
+
+#botones{
+	margin-top: 2em;
+}
+#contenedor{
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	width: 80%;
+	
+}

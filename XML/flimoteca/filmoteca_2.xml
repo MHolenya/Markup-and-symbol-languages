@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmoteca>
+	<peliculas>
+		<pelicula>
+		<titulo>Educazione siberiana</titulo>
+		<director>Gabriele Salvatores</director>
+		<duracion>110 min</duracion>
+		<genero>Drama</genero>
+	<reparto>
+			<actor>
+				<nombre>John</nombre>
+				<apellidos>Malkovich</apellidos>
+				<fecha-de-nacimineto>1953-12-9</fecha-de-nacimineto>
+				<nacionalidad>Estadounidense</nacionalidad>
+			</actor>
+			<actor>
+				<nombre>Vilius</nombre>
+				<apellidos>Tumalavicius</apellidos>
+				<fecha-de-nacimineto>1990-3-16</fecha-de-nacimineto>
+				<nacionalidad>Lituana</nacionalidad>
+			</actor>
+			<actor>
+				<nombre>Peter</nombre>
+				<apellidos>Stormare</apellidos>
+				<fecha-de-nacimineto>1953-8-27</fecha-de-nacimineto>
+				<nacionalidad>sueca</nacionalidad>
+			</actor>
+	</reparto>
+		</pelicula>
+		<pelicula>
+		<titulo>Origins</titulo>
+		<director>Mike Cahill</director>
+		<duracion>106 min </duracion>
+		<genero>Drama</genero>
+		<reparto>
+			<actor>
+				<nombre>Michael</nombre>
+				<apellidos>Pitt</apellidos>
+				<fecha-de-nacimiento>1981-4-10</fecha-de-nacimiento>
+				<nacionalidad>Estadounidense</nacionalidad>
+			</actor>
+			<actor>
+				<nombre>Brit</nombre>
+				<apellidos>Heyworth Marling</apellidos>
+				<fecha-de-nacimiento>1982-8-7</fecha-de-nacimiento>
+				<nacionalidad>Estadounidense</nacionalidad>
+			</actor>
+			<actor>
+				<nombre>Steven</nombre>
+				<apellidos>Yeun</apellidos>
+				<fecha-de-nacimiento>1983-12-21</fecha-de-nacimiento>
+				<nacionalidad>SurcoreanaS</nacionalidad>
+				</actor>
+	</reparto>
+    	</pelicula>				
+		<pelicula>
+		<titulo>Soy Leyenda</titulo>
+		<director>Francis Lawrence</director>
+		<duracion>101 min</duracion>
+		<genero>ciencia ficcion</genero>
+		<reparto>
+			<actor>
+				<nombre>Will</nombre>
+				<apellido>Smith</apellido>
+				<fecha-de-nacimiento>1968-9-25</fecha-de-nacimiento>
+				<nacionalidad>Estadounidense</nacionalidad>
+			</actor>
+			<actor>
+				<nombre>Alice</nombre>
+				<apellidos>Braga Moraes</apellidos>
+				<fecha-de-nacimiento>1983-3-15</fecha-de-nacimiento>
+				<nacionalidad>Brasileña</nacionalidad>
+			</actor>
+			<actor>
+				<nombre>Dash</nombre>
+				<apellidos>Mihok</apellidos>
+				<fecha-de-nacimiento>1974-4-23</fecha-de-nacimiento>
+				<nacionalidad>Estadounidense</nacionalidad>
+			</actor>
+	</reparto>
+		</pelicula>
+	</peliculas>
+</filmoteca>

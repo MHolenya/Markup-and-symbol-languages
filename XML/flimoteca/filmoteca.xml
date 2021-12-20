@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmoteca>
+    <!--Lineas de comentario-->
+  <pelicula>
+  	<titulo>Los intocables de Eliot Ness</titulo>
+  	<director>Brian de Palma</director>
+  	<duracion>120</duracion>
+  </pelicula>
+ 
+
+  <pelicula>
+  	<titulo>La lista de Schindler</titulo>
+  	<director>Steven Spielberg</director>
+  	<duracion>100</duracion>
+  </pelicula>
+
+</filmoteca>

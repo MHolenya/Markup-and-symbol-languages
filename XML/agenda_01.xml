@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>		
+	<contactos>
+		<contacto>
+			<nombre>pepe</nombre>
+			<apellidos>suarez</apellidos>
+			<telefono>627123456</telefono>
+			<correo>pepesuarez@gmail.com</correo>
+		</contacto>
+
+		<contacto>
+			<nombre>luis</nombre>
+			<apellidos>fernandez</apellidos>
+			<telefono>678901234</telefono>
+			<correo>luisfernandez@hotmail.com</correo>
+		</contacto>
+
+		<contacto>
+			<nombre>jose</nombre>
+			<apellidos>recio</apellidos>
+			<telefono>654321789</telefono>
+			<correo>joserecio@outlook.es</correo>
+		</contacto>
+	</contactos>
+</agenda>

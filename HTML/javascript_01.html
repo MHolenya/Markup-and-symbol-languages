@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Empezando con JavaScript</title>
+	<meta charset="UTF-8">
+	<style>
+	</style>
+</head>
+<body>
+	<h1>JavaScripy</h1>
+	<h2>Empezando con JavaScript</h2>
+	<script>
+		// comentario de una linea
+		/*Comentario 
+		de varias 
+		lineas*/ 
+
+		document.write("Hola a todos pndjos");
+		document.write("<br/>");
+		var nombre="Pepe";
+		document.write(nombre);
+ 		document.write("<br/>");
+ 		apellidos="Perez";
+ 		document.write(apellidos);
+		document.write("<br/>");
+ 		var edad;
+ 		edad=18;
+ 		document.write(edad);
+ 		document.write("<br/>");
+ 		document.write(nombre + " " + apellidos + " " + edad + " años");
+
+ 		/*Operadores aritmeticos
+ 		+ 	suma
+ 		- 	resta
+ 		*	multiplicaccion
+		/	Division
+		%	odulo
+ 		*/
+ 		document.write("<br/>");
+ 		var numero_1=10;
+ 		numero_1+=18;
+ 		document.write(numero_1);
+
+ 		document.write("<h2> Operadores logicos </h2>");
+ 		/* operadores logicos 
+			&& 	AND
+			|| 	OR 
+			^   XOR
+			|   NOT 
+
+ 		*/
+		document.write("<h2>etructuras de control </h2>");
+		document.write("<h3> if </h3>");
+		if(numero_1==28){
+			document.write("Se cumple la condicion</br>");
+		}
+
+		document.write("<h3> if else (comparacion ==) </h3>");
+
+		if(numero_1==18){
+			document.write("Entramos por el if  </br>");
+		} else {
+			document.write("Entramos por el else </br>");
+		}
+
+		document.write("<h3> if else (comparacion ===) </h3>");
+		 var dato='18';
+
+		if(dato===18){
+			document.write("Entramos por el if</br>");
+		} else {
+			document.write("Entramos por el else(comparacion estricta)   </br>");
+		}
+
+		document.write("<h3> if else if </h3>");
+		 var dato2=10;
+		 var dato3=20
+		if(dato2>dato3){
+			document.write("dato 2 es mayor que dato3 </br> ");
+		}else if (dato2<dato3){
+			document.write("dato2 es menor que dato3 </br>");
+		}else{
+			document.write("dato2 es igual a dato3 </br>");
+		}
+
+		document.write("<h3> switch - case </h3>")
+		var opcion=3;
+		switch(opcion){
+			case 0 :
+				document.write("Opcion 0 ");
+				break;
+			case 1 :
+				document.write("Opcion 1 ");
+				break;
+			case 2 :
+				document.write("Opcion 2 ");
+				break;
+			case 3 :
+				document.write("Opcion 3 ");
+				break;
+			default:
+				document.write("ninguna de las opciones anteriores ");		
+				
+		}
+
+
+
+
+	</script>
+</body>
+</html>

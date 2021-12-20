@@ -1,0 +1,85 @@
+/*Líneas de comentario
+HTML
+	Según su importancia
+IDENTIFICADORES
+CLASES
+Alfabéticamente
+
+REGLA CSS
+Selector
+
+	HTML, identificador, clae o pseudoclase
+Declaración
+	Propiedad y valor (propiedad: valor;)
+	Las propiedades hay que ponerlas alfabéticamente
+
+HTML			CSS
+id="nombre"  		#nombre 
+
+*/
+/*p{
+	color:  #0000FF;
+	
+}*/
+
+*{
+	font-family: "Calibri";
+}
+body{
+	border: 5px solid;
+}
+header{
+	border:5px solid #00FF00;
+}
+a{  border: 1px solid #00FF00;
+	text-decoration: none;
+}
+nav{
+	border:5px solid #FF6600;
+	margin: 0 auto;/*margin es la distancia entre un elemento y otro*/
+	text-align: center;
+	width: 80%;
+}
+nav a{	
+	border: 1px solid #87581D;
+	display: inline-block;
+	margin:0 1em;
+	text-decoration: none;
+/* Hay que cambiar a bloque, ya que al ser en línea solo ajusta a derecha e izquierda
+*/
+}
+
+main{
+	border: 5px solid #909090;
+	display: inline-block;
+	/*con el display, se pone en línea los elementos*/
+	margin-right: 1em;
+	vertical-align: top;
+	/*Se alinea el cuadro arriba, por defecto la imagen suele bajar al estar alineado*/
+	width: 76.3%;
+}
+aside{
+	border: 5px solid #909090;
+	display: inline-block;
+	vertical-align: middle;
+	/*Se queda en el medio, con bottom se quedaría abajo*/
+	width: 20%;
+}
+footer{
+	border: 5px solid #00FF00;
+}
+/* p{
+	color: #0000FF;
+	 enlace para conocer los colores https://htmlcolorcodes.com/es/ 
+}*/
+#contenedor{
+	border: 5px solid #0000FF;
+	/*Borde del contenedor, para remarcar lo que ocupa*/
+	width: 80%;
+	/*Anchura que ocupa el documento, ocupa el 80% de la página*/
+	margin: 0 auto;
+	/*Realiza automáticamente el marco para que quede centrado los margenes de izquierda a derecha*/
+	/*margin: 4em; se deja un margen de 4em por todos lados*/
+	/*margin: 2em 4em; Se deja un margen de 2em en Vertical y 4em en Horizontal*/
+	/*margin: 1em 2em 3em 4em; Margen que se quiere tener con el resto de los elementos, en el orden de arriba, derecha, abajo, izquierda */
+}

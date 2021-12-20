@@ -1,0 +1,66 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>formulario con JavaScript</title>
+	<meta charset="UTF-8">
+	<style>
+		label{
+			display: block;
+			margin top: 1em;
+		}
+		#botones{
+			margin-top: 1em;
+		}
+	</style>
+
+	<script>
+	
+		function ValidarFormulario() {
+			/*Vamos a validar el formulario con tods los campos obligatorios*/
+			if(document.formulario.nombre_txt.value==""){
+				alert("Por favor, rellene el campo Nombre");
+				/* Ponemos el foco en nombre txt*/
+				document.formulario.nombre_txt.focus();
+			}else if(document.formulario.apellidos_txt.value==""){
+				alert("Por favor, rellene el campo Apellidos");
+				document.formulario.apellidos_txt.focus();
+			}
+			document.formulario.submit();
+			
+		}	
+
+		function borrarFormulario() {
+			document.formulario.reset();
+			/*alert("¿Seguro que quiere borrar los datos del formulario ?");*/
+		}
+
+	</script>
+</head>
+<body>
+	<section id="contenedor">
+		<section id="formulario">
+			<form name="formulario" action="archivo_sin_hacer.php" method="get" enctype="application/x-www-form-urlencoded">
+				<!--************************************************************************-->
+				<label>Nombre</label>
+				<input type="text" name="nombre_txt"  autofocus>
+
+				<label>Apellidos</label>
+				<input type="text" name="apellidos_txt">
+
+				<section id="botones">	
+					<!--<input type="submit" name="enviar_btn" value="Enviar">
+					<input type="reset"  value="Borrar">-->
+
+					<input type="button" name="enviar_btn" value="Enviar" onclick="ValidarFormulario()">
+					<input type="button" value="Borrar" onclick="borrarFormulario()">
+
+
+
+
+				</section>	
+			</form>
+		</section>
+	</section>
+
+</body>
+</html>

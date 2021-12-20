@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>alert confirm prompt</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<!-- Ventanas modales o emergentes -->
+	<h1>alert() confirm() prompt()</h1>
+	<h2>alert()</h2>
+	<script>
+	// Muestra un botón aceptar
+		//alert("Hola a todos!!!");
+	</script>
+
+	<h2>confirm()</h2>
+	<script>
+	/*
+		// Muestra un botón Aceptar y otro botón Cancelar
+		var continuar=confirm("¿Desea continuar?"); 
+		// El confirm() me devuelve true o false
+		document.write(continuar);
+		if (continuar) {
+			document.write("<br />Has pulsado en Aceptar");
+		} else{
+			document.write("<br />Has pulsado en Cancelar");
+		}
+	*/
+	</script>
+
+	<h2>prompt()</h2>
+	<script>
+		// Muestra un mensaje
+		// Muestra una caja para introducir información
+		// Muestra un botón Aceptar y otro botón Cancelar
+		var dni=prompt("Introduzca su DNI");
+		document.write(dni);
+	</script>
+
+	<h2>Arrays</h2>
+	<script>
+		var reyes=["Leovigildo", "Recaredo", "Recesvinto"];
+		//document.write(reyes[0]);
+
+		for (var indice=0; indice<reyes.length; indice++) {
+			document.write(reyes[indice] + " || ");
+		}
+	</script>
+</body>
+</html>

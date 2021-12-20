@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+	<contacto>
+		<nombre>Pepe</nombre>
+		<apellidos>Juarez</apellidos>
+		<direccion>
+			<tipo_via>Calle</tipo_via>
+			<nombre_via>Cuba</nombre_via>
+			<numero>3</numero>
+			<codigo_postal>28892</codigo_postal>
+			<localidad>Fuenlabrada</localidad>
+			<Provincia>Madrid</Provincia>
+			</direccion>
+				<correo_electronico>Pepejuarez@gmail.com</correo_electronico>
+				<telefonos>
+					<casa>987123431</casa>
+					<movil>678456789</movil>
+					<trabajo>987015678</trabajo>
+					<tipo_contacto>Familiar</tipo_contacto>
+				</telefonos>
+			</contacto>
+
+			<contacto>
+		<nombre>Alex</nombre>
+		<apellidos>Ruiz</apellidos>
+		<direccion>
+			<tipo_via>Avenida</tipo_via>
+			<nombre_via>San jose</nombre_via>
+			<numero>1</numero>
+			<codigo_postal>21321</codigo_postal>
+			<localidad>Madrid</localidad>
+			<Provincia>Madrid</Provincia>
+			</direccion>
+				<correo_electronico>AlexRuiz@gmail.com</correo_electronico>
+				<telefonos>
+					<casa>912311567</casa>
+					<movil>651213987</movil>
+					<trabajo>912567890</trabajo>
+					<tipo_contacto>Trabajo</tipo_contacto>
+				</telefonos>
+			</contacto>
+
+			<contacto>
+		<nombre>Diana</nombre>
+		<apellidos>Juarez</apellidos>
+		<direccion>
+			<tipo_via>Calle</tipo_via>
+			<nombre_via>Salomon</nombre_via>
+			<numero>87</numero>
+			<codigo_postal>28992</codigo_postal>
+			<localidad>Parla</localidad>
+			<Provincia>Madrid</Provincia>
+			</direccion>
+				<correo_electronico>DianaJuarez@gmail.com</correo_electronico>
+				<telefonos>
+					<casa>967567123</casa>
+					<movil>654781456</movil>
+					<trabajo>900144678</trabajo>
+					<tipo_contacto>Familiar</tipo_contacto>
+				</telefonos>
+			</contacto>
+		</agenda>
+
+

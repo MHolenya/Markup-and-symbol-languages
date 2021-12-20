@@ -1,0 +1,22 @@
+*{
+	font-family: "Calibri";
+}
+
+label{
+	display: block;/*para poner los elementos del label en bloque */
+	margin-top: 1em;/*dejar una distancia por ariba del label*/
+}
+textarea{
+	resize: none;/* par aque el elemento no pueda cambiar de tamaño*/
+}
+
+#botones{
+	margin-top: 1em;
+}
+
+#contenedor{
+	/*border: 1px solid #0000FF;*/
+	margin: 0 auto;
+	width: 80%;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario con JavaScript</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos_formulario2.css">
+	<script src="js/validar_formulario2.js"></script>
+</head>
+<body>
+	<section id="contenedor">
+		<section id="formulario">
+			<h1>Formulario con CSS y JavaScript por separado</h1>
+			<form name="formulario" action="archivo_sin_hacer.php" method="get" enctype="application/x-www-form-urlencoded">
+				<!-- ********************************** -->
+				<label>Nombre:</label>
+				<input type="text" name="nombre_txt" id="nombre_txt" autofocus>
+
+				<label>Apellidos:</label>
+				<input type="text" name="apellidos_txt">
+
+				<label>Ciudad:</label>
+				<input type="text" name="ciudad_txt" id="ciudad">
+
+				<label>Teléfono:</label>
+				<input type="text" name="telefono_txt" placeholder="Números sin espacios">
+
+				<label>Edad:</label>
+				<input type="number" name="edad" min="16" step="1">
+
+				<section id="botones">
+					<!--<input type="submit" name="enviar_btn" value="Enviar">
+					<input type="reset" value="Borrar">-->
+
+					<input type="button" name="enviar_btn" value="Enviar" onclick="validarFormulario()">
+					<input type="button" value="Borrar" onclick="borrarFormulario()">
+				</section>
+
+			</form>
+
+			<a href="aaa.php" onclick="validarFormulario()">Validar</a>
+			<a href="aaa.php" onmouseover="borrarFormulario()">Borrar</a>
+		</section>
+		<!--<script>
+			document.write("Hola desde el body");
+		</script>
+		<p>Esto es un párrafo</p>
+		<script>
+			document.write("Hola de nuevo desde el body");
+		</script>-->
+	</section>
+</body>
+</html>
